@@ -1,15 +1,53 @@
+/* COMMON STYLES */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 ul,
 ol {
-  list-style: none;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 a {
   text-decoration: none;
+}
+/*========== HEADER STYLE=========== */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+}
+.contacts-list {
+  display: flex;
+  align-items: center;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -20,9 +58,12 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-/* .logo-header {
+.logo-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-right: 76px;
-} */
+}
+
 .logo-header .logo-part {
   color: #2e2f42;
 }
