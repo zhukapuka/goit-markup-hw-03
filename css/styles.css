@@ -160,6 +160,17 @@ h1 {
   background: #404bbf;
 }
 /* ------------------------SECOND SECTION----------------- */
+ul.second-section-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.second-section-item {
+  width: calc((100%-72) / 4);
+}
+.second-section-item-header {
+  margin-bottom: 8px;
+}
 /* --------------------SECTION 3,4--------------------------- */
 .third-section {
   background-color: #f4f4fd;
