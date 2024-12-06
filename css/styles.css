@@ -44,10 +44,34 @@ a {
 }
 .nav-list {
   display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav-link {
+  padding: 24px 0;
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.contacts {
+  font-style: normal;
+  margin-left: auto;
 }
 .contacts-list {
   display: flex;
   align-items: center;
+  gap: 40px;
+}
+.contacts-link {
+  display: block;
+  padding: 24px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -67,24 +91,7 @@ a {
 .logo-header .logo-part {
   color: #2e2f42;
 }
-.nav-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.contacts {
-  font-style: normal;
-}
-.contacts-link {
-  /* font-weight: 400; по замоовчуванню браузер й так видає 400*/
-  font-size: 16px;
-  /* line-height: 24px; */
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
