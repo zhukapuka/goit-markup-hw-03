@@ -210,7 +210,25 @@ h3.third-section-item-header {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
+.forth-section-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
+.forth-section-item {
+  width: calc((100% - 48px) / 3);
+}
+.forth-section-wrap-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+}
+h3.forth-section-item-header {
+  margin-bottom: 8px;
+}
+/* ============================================ */
 .second-section-item > h3,
 .third-section-item > h3,
 .forth-section-item > h3 {
