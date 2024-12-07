@@ -286,9 +286,9 @@ h2 {
 }
 .logo-footer .logo-part {
   color: #f4f4fd;
-  display: inline-block;
 }
 .logo {
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer-description {
