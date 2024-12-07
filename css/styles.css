@@ -166,7 +166,7 @@ ul.second-section-list {
   gap: 24px;
 }
 .second-section-item {
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .second-section-item-header {
   margin-bottom: 8px;
