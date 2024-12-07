@@ -282,17 +282,22 @@ h2 {
 /* -------------------------FOOTER-------------------------- */
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .logo-footer .logo-part {
   color: #f4f4fd;
+  display: inline-block;
+}
+.logo {
+  margin-bottom: 16px;
 }
 .footer-description {
+  margin-top: 16px;
+  display: block;
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-/* .logo-footer {
-  margin-bottom: 16px;
-} */
