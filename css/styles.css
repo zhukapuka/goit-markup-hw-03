@@ -224,6 +224,7 @@ h3.third-section-item-header {
 .forth-section-wrap-text {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 h3.forth-section-item-header {
   margin-bottom: 8px;
