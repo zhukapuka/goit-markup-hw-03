@@ -289,7 +289,9 @@ h2 {
 }
 .logo {
   display: inline-block;
-  margin-bottom: 0;
+}
+.logo-footer {
+  margin-bottom: 16px;
 }
 .footer-description {
   display: block;
