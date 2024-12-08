@@ -289,10 +289,9 @@ h2 {
 }
 .logo {
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 0;
 }
 .footer-description {
-  margin-top: 16px;
   display: block;
   max-width: 264px;
   font-weight: 400;
